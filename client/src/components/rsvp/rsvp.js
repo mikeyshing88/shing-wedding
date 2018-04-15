@@ -3,6 +3,8 @@ import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Form, Button } from 'reactstrap';
 
+import './rsvp.scss';
+
 class Rsvp extends Component {
   static propTypes = {
     guest: PropTypes.string.isRequired
@@ -32,7 +34,6 @@ class Rsvp extends Component {
   }
 
   render() {
-    console.log('ee');
     return (
       <div>
         <Form>

@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 import { StickyContainer } from 'react-sticky';
 import { Helmet } from 'react-helmet';
-import { Legals } from 'presales-common';
 import isEqual from 'lodash/isEqual';
 import PropTypes from 'prop-types';
 
 import Header from 'components/header/header';
-import css from './page.scss';
 
 export default class Page extends Component {
   static propTypes = {
     title: PropTypes.string,
-    children: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.element,
-      PropTypes.array
-    ]).isRequired,
+
     header: PropTypes.oneOfType([
       PropTypes.func,
       PropTypes.bool
