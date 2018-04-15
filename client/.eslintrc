@@ -98,32 +98,12 @@
         "allowGlobals": true
       }
     ],
-    "custom-eslint-rules/no-var-props": 2,
     "comma-dangle": "off",
     "one-var": "off",
     "react/jsx-filename-extension": "off",
     "react/forbid-prop-types": "off",
     "import/no-named-as-default": "off",
     "func-names": "off",
-    "custom-eslint-rules/disallowed-var-names": [
-      2,
-      {
-        "properties": [],
-        "methods": [],
-        "imports": [
-          [
-            "classnames",
-            "cx"
-          ]
-        ],
-        "variables": [
-          [
-            "classnames",
-            "cx"
-          ]
-        ]
-      }
-    ],
     "react/jsx-no-bind": "off",
     "eqeqeq": "off",
     "space-infix-ops": "off",

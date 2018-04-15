@@ -32,6 +32,7 @@ class Rsvp extends Component {
   }
 
   render() {
+    console.log('ee');
     return (
       <div>
         <Form>
