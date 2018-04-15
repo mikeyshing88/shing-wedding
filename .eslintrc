@@ -1,0 +1,136 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:jsx-control-statements/recommended"
+  ],
+  "plugins": [
+    "html",
+    "filenames",
+    "custom-eslint-rules",
+    "jsx-control-statements"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jsx-control-statements/jsx-control-statements": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "test": true,
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "expect": true,
+    "browser": true,
+    "by": true,
+    "element": true,
+    "jasmine": true,
+    "If": true,
+    "For": true,
+    "When": true,
+    "Choose": true
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "import/first": "off",
+    "new-parens": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "class-methods-use-this": "off",
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "no-console": "off",
+    "guard-for-in": "off",
+    "no-param-reassign": "off",
+    "arrow-body-style": "off",
+    "prefer-destructuring": "off",
+    "max-len": [
+      "error",
+      140
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "none"
+      }
+    ],
+    "arrow-parens": "off",
+    "padded-blocks": "off",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-new": "off",
+    "new-cap": "off",
+    "function-paren-newline": "off",
+    "no-mixed-operators": "off",
+    "no-await-in-loop": "off",
+    "import/no-mutable-exports": "off",
+    "no-plusplus": "off",
+    "newline-per-chained-call": "off",
+    "no-restricted-globals": "off",
+    "object-curly-newline": "off",
+    "array-callback-return": "off",
+    "react/prefer-stateless-function": "off",
+    "filenames/match-regex": [
+      2,
+      "^(_){0,1}([a-zA-Z])[a-z-.]+$"
+    ],
+    "filenames/match-exported": "off",
+    "react/no-unused-state": "off",
+    "react/default-props-match-prop-types": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "react/no-danger": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-no-undef": [
+      2,
+      {
+        "allowGlobals": true
+      }
+    ],
+    "custom-eslint-rules/no-var-props": 2,
+    "comma-dangle": "off",
+    "one-var": "off",
+    "react/jsx-filename-extension": "off",
+    "react/forbid-prop-types": "off",
+    "import/no-named-as-default": "off",
+    "func-names": "off",
+    "custom-eslint-rules/disallowed-var-names": [
+      2,
+      {
+        "properties": [],
+        "methods": [],
+        "imports": [
+          [
+            "classnames",
+            "cx"
+          ]
+        ],
+        "variables": [
+          [
+            "classnames",
+            "cx"
+          ]
+        ]
+      }
+    ],
+    "react/jsx-no-bind": "off",
+    "eqeqeq": "off",
+    "space-infix-ops": "off",
+    "eol-last": "off",
+    "no-unused-expressions": "off",
+    "filenames/no-index": "off",
+    "yoda": "off",
+    "no-continue": "off"
+  }
+}

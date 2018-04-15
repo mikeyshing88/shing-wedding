@@ -1,0 +1,11 @@
+{
+  "name": "eslint-plugin-custom-eslint-rules",
+  "version": "0.6.7",
+  "main": "custom-eslint-rules.js",
+  "devDependencies": {
+    "eslint": "^4.8.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}

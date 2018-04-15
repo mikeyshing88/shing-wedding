@@ -1,0 +1,33 @@
+{
+  "presets": [
+    "react-app",
+    "es2017",
+    "env"
+  ],
+  "plugins": [
+    "jsx-control-statements",
+    "babel-plugin-transform-decorators-legacy",
+    "transform-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src/"
+        ],
+        "alias": [
+          {
+            "assets": "./assets",
+            "common": "./common",
+            "components": "./components",
+            "constants": "./constants",
+            "containers": "./containers",
+            "helpers": "./helpers",
+            "pages": "./pages",
+            "store": "./store",
+            "utils": "./utils"
+          }
+        ]
+      }
+    ]
+  ]
+}
