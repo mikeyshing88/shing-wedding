@@ -1,0 +1,1 @@
+{"version":3,"sources":["../index.scss"],"names":[],"mappings":"AAAA;;AACA;;AACA;EACE;EACA;EACA","file":"assets/css/main.6c7e9875.css","sourcesContent":["/*----------  Third Party  ----------*/\n/*----------  Generic styles  ----------*/\nbody {\n  margin: 0;\n  padding: 0;\n  background: #fff; }\n\n\n\n// WEBPACK FOOTER //\n// ./index.scss"],"sourceRoot":""}
