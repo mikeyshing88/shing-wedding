@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "heroku-postbuild": "cd client/ && npm install && npm install --no-shrinkwrap && npm run build",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "build": "cd client && npm run prod:build:fetch && cd ..",
     "server": "node server.js",
