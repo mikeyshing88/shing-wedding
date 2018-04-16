@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postinstall": "cd client && npm run prod:build:fetch && cd ..",
     "build": "cd client && npm run prod:build:fetch && cd ..",
     "server": "node server.js",
     "client": "node start-client.js",
