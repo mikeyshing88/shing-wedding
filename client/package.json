@@ -13,8 +13,7 @@
     "prod:build:fetch": "npm run build && npm run babel:build:routes",
     "babel:build:routes": "BABEL_ENV=production babel-node build-tools/scripts/create-routes.js",
     "install:custom-eslint": "npm install --save-dev ./build-tools/eslint-rules",
-    "lint:sass": "sass-lint -c .sass-lint.yml -v -q -i 'src/styles/external/**/*.scss'",
-    "postinstall": "npm install && npm run prod:build:fetch"
+    "lint:sass": "sass-lint -c .sass-lint.yml -v -q -i 'src/styles/external/**/*.scss'"
   },
   "keywords": [],
   "author": "",
