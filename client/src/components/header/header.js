@@ -8,7 +8,7 @@ export class Header extends Component {
     return (
       <div className={styles.header}>
         <nav>
-          <p>Test</p>
+          <p>Test please</p>
         </nav>
       </div>
     );
