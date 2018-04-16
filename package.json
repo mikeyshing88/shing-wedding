@@ -5,7 +5,7 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-prebuild": "npm run build",
-    "build": "cd client && npm run prod:build:fetch && cd ..",
+    "build": "cd client && npm i && npm run prod:build:fetch && cd ..",
     "server": "node server.js",
     "client": "node start-client.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
